@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="src" path="/java-json"/>
+	<classpathentry kind="src" path="/javax.servlet-3.0.0.v201112011016"/>
+	<classpathentry kind="src" path="/okhttp-2.3.0"/>
+	<classpathentry kind="lib" path="/Users/maojiewen/Desktop/scribe-1.2.1.jar"/>
+	<classpathentry kind="lib" path="/Users/maojiewen/Desktop/javax.annotation.jar"/>
+	<classpathentry kind="src" path="/gson-2.2.2"/>
+	<classpathentry kind="src" path="/commons-codec-1.8"/>
+	<classpathentry kind="lib" path="/Users/maojiewen/Downloads/mail-1.4.7.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
