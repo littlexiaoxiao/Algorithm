@@ -21,6 +21,7 @@ public class Three_Sum_Closest {
 					left++;
 					continue;
 				}
+				
 				sum = nums[i] + nums[left] + nums[right];
 				diff = Math.abs(sum - target);
 				if (diff < min) {
