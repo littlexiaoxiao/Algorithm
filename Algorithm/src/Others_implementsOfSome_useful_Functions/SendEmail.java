@@ -15,8 +15,8 @@ import javax.mail.internet.MimeMessage;
   
 public class SendEmail {  
     private String SMTP_HOST = "smtp.gmail.com";  
-    private String FROM_ADDRESS = "sendemailna@gmail.com";  
-    private String PASSWORD = "mappinghope2015";  
+    private String FROM_ADDRESS = "sendemail@gmail.com";  
+    private String PASSWORD = "******";  
     private String FROM_NAME = "Neighborhood Allies Pittsburgh";  
   
     public boolean sendMail(String[] recipients, String[] bccRecipients, String subject, String message) {  
