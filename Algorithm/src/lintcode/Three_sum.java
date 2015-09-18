@@ -12,10 +12,18 @@ public class Three_sum {
 		int left = 0, right = 0, sum = 0;
 		ArrayList<Integer> item = new ArrayList<Integer>();
 		Arrays.sort(nums);
-		for (int i = 0; i < nums.length; i++) {
+		for (int i = 0; i < nums.length - 2; i++) {
+			if (i > 0 && nums[i] == nums[i - 1])
+				continue;
+
 			left = i + 1;
 			right = nums.length - 1;
 			while (left < right) {
+				if (left > i + 1 && nums[left] == nums[left - 1]) {
+					left++;
+					continue;
+				}
+
 				sum = nums[i] + nums[left] + nums[right];
 				if (sum < 0) {
 					left++;
@@ -27,9 +35,7 @@ public class Three_sum {
 					item.add(nums[left]);
 					item.add(nums[right]);
 					Collections.sort(item);
-					if (!res.contains(item)) {
-						res.add(new ArrayList<Integer>(item));
-					}
+					res.add(new ArrayList<Integer>(item));
 					left++;
 					right--;
 				}
