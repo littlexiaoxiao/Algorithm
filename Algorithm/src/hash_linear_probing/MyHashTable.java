@@ -1,13 +1,4 @@
 package hash_linear_probing;
-/***********************************************************
- *
- * 08-722 Data Structures for Application Programmers Homework 4 HashTable
- * Implementation with linear probing
- *
- * Andrew ID: jiewenm 
- * Name: jiewen mao
- *
- ***********************************************************/
 
 public class MyHashTable implements MyHTInterface {
 	private DataItem[] hashArray;
